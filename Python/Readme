@@ -1,0 +1,8 @@
+1. Build dll using VS.  Binaries will be on bin/x64/Release
+
+2. Move into Python subdirectory. Run:
+		>>python setup.py build_ext --inplace
+	A .pyd (dll) file will be generated.  
+	
+3. Try >>python run2.py
+	The dll is not recognized.  
